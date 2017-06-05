@@ -233,6 +233,7 @@
 }
 
 .headerMain-subContent {
+    background:$headerMain-subContent-mobile-background;
     &:after {
         content: '';
         position: absolute;
@@ -255,7 +256,7 @@
 
 .headerMain-subContentInner {
     position: relative;
-    // max-height: 0;
+    max-height: 0;
     overflow: hidden;
     transition: all .5s;
     display: flex;
@@ -270,16 +271,25 @@
     list-style: none;
     padding: 0;
     flex: 1 1 auto;
-    padding: $spacer*2 0;
+    padding: $spacer;
+    @include media-breakpoint-up(lg) {
+        padding: $spacer*2 0;
+    }
 }
 
 .headerMain-subMainLink {
-    color: $headerMain-subMainLink-color;
+    color: $headerMain-subMainLink-mobile-color;
     text-decoration: none;
     font-size: $headerMain-subMainLink-size;
     &:hover {
         color: $headerMain-subMainLink-active-color;
         text-decoration: none;
+    }
+    @include media-breakpoint-up(lg) {
+        color: $headerMain-subMainLink-color;
+        &:hover {
+            color: $headerMain-subMainLink-active-color;
+        }
     }
 }
 
