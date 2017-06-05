@@ -1,4 +1,4 @@
-# vectibix-2017
+# amgen-template-2017
 
 This is the basic structure for a new build.
 
