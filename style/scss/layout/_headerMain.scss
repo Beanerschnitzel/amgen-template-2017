@@ -255,7 +255,7 @@
 
 .headerMain-subContentInner {
     position: relative;
-    max-height: 0;
+    // max-height: 0;
     overflow: hidden;
     transition: all .5s;
     display: flex;
@@ -293,11 +293,17 @@
     }
 }
 
-.headerMain-cta {
+.headerMain-subcollateralCta {
     display: block;
-    color: $headerMain-cta-color;
-    background: $headerMain-cta-background;
+    color: $headerMain-subcollateralCta-color;
+    background: $headerMain-subcollateralCta-background;
     padding: $spacer/2 $spacer;
+    font-size:$headerMain-subcollateralCta-size;
+    text-decoration:none;
+    &:hover {
+        text-decoration:none;
+        color:$headerMain-subcollateralCta-hover-color;
+    }
 }
 
 .headerMain-utilCollateral {

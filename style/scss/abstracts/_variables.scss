@@ -154,8 +154,10 @@ $headerMain-subMainLink-color: map-get(map-get($palettes, 'colorBrandBlue'), 'ba
 $headerMain-subMainLink-size: 18px;
 $headerMain-subMainLink-active-color: map-get(map-get($palettes, 'colorBrandOrange'), 'base');
 
-$headerMain-cta-color:$colorWhite;
-$headerMain-cta-background:map-get(map-get($palettes, 'colorBrandOrange'), 'base');
+$headerMain-subcollateralCta-color:$colorWhite;
+$headerMain-subcollateralCta-hover-color:$colorWhite;
+$headerMain-subcollateralCta-size:18px;
+$headerMain-subcollateralCta-background:map-get(map-get($palettes, 'colorBrandOrange'), 'base');
 
 $notifyTray-toggle-color:map-get(map-get($palettes, 'colorBrandBlue'), 'base');
 $notifyTray-toggle-hover-color:map-get(map-get($palettes, 'colorBrandCyan'), 'base');
