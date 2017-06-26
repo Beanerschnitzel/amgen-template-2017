@@ -1,10 +1,10 @@
 //toggle search on lg screens
 
 jQuery(document).ready(function($) {
-  var mqlSubToggle = window.matchMedia("(max-width: 768px)");
+  var mqlSubToggle = window.matchMedia("(max-width: 991px)");
 
   function toggleSub() {
-    $('.headerMain-navMainLink').on("click.mqlSubToggle", function(e) {
+    $('.headerMain-navMainLink.hasChildren').on("click.mqlSubToggle", function(e) {
         e.preventDefault();
       if (!$(this).closest('.headerMain-navMainItem').hasClass('is-open')) {
         $('.headerMain-navMainItem').removeClass('is-open');

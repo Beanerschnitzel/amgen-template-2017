@@ -2,7 +2,7 @@
 //toggle main nav on sm screens
 
 jQuery(document).ready(function($) {
-  var mqlNavToggle = window.matchMedia("(max-width: 768px)");
+  var mqlNavToggle = window.matchMedia("(max-width: 991px)");
 
   function toggleNav() {
     $('.headerMain-navMainToggle').on("click.mqlNavToggle", function(e) {

@@ -29,12 +29,25 @@
 
 // 5. Components
 @import
+  'components/aside',
+  'components/blurBox',
+  'components/tabs',
+  'components/pointCallout',
+  'components/hero',
+  'components/table',
+  'components/hr',
+  'components/blockquote',
+  'components/sideBySide',
+  'components/heroMain',
   'components/notifyTray',
   'components/notifyMain',
-  'components/button';
+  'components/button',
+  'components/references';
 
 // 6. Page-specific styles
 @import
+  'pages/access',
+  'pages/profiles',
   'pages/styleguide';
 
 // 7. Themes

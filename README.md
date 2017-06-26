@@ -1,4 +1,6 @@
-# amgen-template-2017
+http://bluemodus.github.io/amgen-vectibix-hcp-2017-site
+
+# amgen-vectibix-hcp-2017-site
 
 This is the basic structure for a new build.
 
